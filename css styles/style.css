@@ -31,3 +31,10 @@ body {
 .navbar-dark {
     background-color : #512DA8;
 }
+.radio-inline {
+    margin-left:15px;
+}
+#link {
+    text-decoration: none;
+    color: inherit;
+}

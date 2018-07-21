@@ -40,8 +40,14 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-3 align-self-center">
+                    <img src="img/logo.png" class="image -fluid">
                 </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <button class="btn btn-lg btn-warning btn-block" width="250px"><a href="#Table" id="link"><strong>Reserve Table</strong></a></button>
+                
+                </div>
+                
             </div>
         </div>
     </header>
@@ -68,8 +74,13 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm  col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Weekend Grand Buffet">
+                </div>
             </div>
         </div>
 
@@ -86,6 +97,43 @@
                         <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row row-content"><a name="Table"></a>
+            <div class="col-12 col-sm-8 offset-md-2">
+              <div class="card" >
+                <h3 class="card-header text-white bg-warning">Reserve a Table</h3>
+                <div class='card-body'>
+                    <div class="form-group row">
+                        <label for="noofguests" class="col-12 col-md-2 col-form-label"><strong>Number of Guests</strong></label>
+                        <div class="col-12 col-md-10">
+                            <label class="radio-inline "><input type="radio" name="optradio"> 1 </label>
+                            <label class="radio-inline "><input type="radio" name="optradio"> 2 </label>
+                            <label class="radio-inline "><input type="radio" name="optradio"> 3 </label>
+                            <label class="radio-inline "><input type="radio" name="optradio"> 4 </label>
+                            <label class="radio-inline "><input type="radio" name="optradio"> 5 </label>
+                            <label class="radio-inline "><input type="radio" name="optradio"> 6 </label>
+                        </div>
+                    
+                    
+                    </div>
+                    <div class="form-group row">
+                         <label for="date and time" class="col-12 col-md-2 col-form-label"><strong>Date and Time</strong></label>
+                         <div class="col-6 col-md-4">
+                            <input type="date" class="form-control" id="date" name="date" placeholder="Date">  
+                         </div>
+                         <div class="col-6 col-md-4">
+                            <input type="time" class="form-control" id="time" name="time" placeholder="Time">  
+                         </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary text-white">Reserve</button> 
+                        </div>
+                    
+                    </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
